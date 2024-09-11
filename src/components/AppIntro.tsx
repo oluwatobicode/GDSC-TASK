@@ -1,6 +1,6 @@
 const AppIntro = () => {
   return (
-    <div className="m-5 mb-[10rem] flex lg:flex-row flex-col items-center justify-between">
+    <div className="m-5 lg:mt-[20rem] mt-[5rem] mb-[10rem] flex lg:flex-row flex-col items-center justify-between">
       <div className="flex flex-col lg:items-start  gap-5 w-fit">
         <h1 className="text-[#091133] leading-[48px] md:text-[36px] text-[25px] font-medium ">
           Light, Fast & Powerful
@@ -12,8 +12,8 @@ const AppIntro = () => {
           felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
           consequat massa quis enim.
         </p>
-        <div className="flex lg:flex-row flex-col  gap-3 mt-5">
-          <div className="flex flex-col lg:items-start lg:text-left items-center text-center gap-3">
+        <div className="flex md:flex-row flex-col  gap-3 mt-5">
+          <div className="flex flex-col md:items-start md:text-left items-center text-center gap-3">
             <span>
               <svg
                 width="36"
@@ -38,7 +38,7 @@ const AppIntro = () => {
               commodo ligula eget dolor.{" "}
             </p>
           </div>
-          <div className="flex flex-col lg:items-start lg:text-left items-center text-center gap-3">
+          <div className="flex flex-col md:items-start md:text-left items-center text-center gap-3">
             <span>
               <svg
                 width="36"

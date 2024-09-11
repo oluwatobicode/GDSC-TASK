@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import AppIntro from "./components/AppIntro";
 import Features from "./components/Features";
@@ -8,7 +7,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <main className="">
-      <Navbar />
       <Hero />
       <AppIntro />
       <Features />
